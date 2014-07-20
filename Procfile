@@ -1,1 +1,1 @@
-web: gunicorn pandatree.wsgi -b 0.0.0.0:$PORT
+web: gunicorn social_login.wsgi -b 0.0.0.0:$PORT
